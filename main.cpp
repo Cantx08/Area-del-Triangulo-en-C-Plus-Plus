@@ -9,11 +9,11 @@ int main() {
 
     // Ingresar la longitud de los lados del triángulo.
     // Nota: Los lados deben tener una longitud mayor a 0!
-    cout << "Ingrese la longitud del lado 1 (en cm): ";
+    cout << "Ingrese la longitud del lado 1 (cm): ";
     cin >> ladoUno;
-    cout << "Ingrese la longitud del lado 2 (en cm): ";
+    cout << "Ingrese la longitud del lado 2 (cm): ";
     cin >> ladoDos;
-    cout << "Ingrese la longitud del lado 3 (en cm): ";
+    cout << "Ingrese la longitud del lado 3 (cm): ";
     cin >> ladoTres;
 
     // Calcular el semiperímetro y aplicar la fórmula de Herón.

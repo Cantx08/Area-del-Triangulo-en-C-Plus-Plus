@@ -10,6 +10,22 @@
             "username": "postgres",
             "password": "P@ssw0rd",
             "connectionTimeout": 30
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "driver": "MSSQL",
+            "name": "MSSQL Local",
+            "database": "master",
+            "username": "sa",
+            "password": "P@ssw0rd",
+            "connectionTimeout": 30
         }
     ]
 }

@@ -26,6 +26,21 @@
             "username": "sa",
             "password": "P@ssw0rd",
             "connectionTimeout": 30
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "MySQL Local",
+            "password": "P@ssw0rd",
+            "username": "root",
+            "connectionTimeout": 30,
+            "database": "mysql"
         }
     ]
 }

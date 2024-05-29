@@ -37,10 +37,10 @@
             "port": 3306,
             "driver": "MySQL",
             "name": "MySQL Local",
-            "password": "P@ssw0rd",
+            "database": "mysql",
             "username": "root",
             "connectionTimeout": 30,
-            "database": "mysql"
+            "password": ""
         }
     ]
 }
